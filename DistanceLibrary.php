@@ -27,7 +27,7 @@ class DistanceLibrary {
 			$g_map_query="";
 			$g_map_query="origins={$lat0},{$lon0}&destinations={$lat1},{$lon1}";
 			 
-			$url = "https://maps.googleapis.com/maps/api/distancematrix/json?".$g_map_query."&language=en&key=AIzaSyBsZol4eVtTq4cjwd3UDATW9vQcfQugF28";
+			$url = "https://maps.googleapis.com/maps/api/distancematrix/json?".$g_map_query."&language=en&key=YOUR_KEY_HERE";
 			 
 			$curl = curl_init();
 			curl_setopt($curl, CURLOPT_URL, $url);
